@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
 
 # Dolby Packages
 PRODUCT_PACKAGES += \
-    DolbyManager
+    DolbyManager \
+    DSPVolumeSynchronizer
 
 # Codec2 Props
 PRODUCT_VENDOR_PROPERTIES += \

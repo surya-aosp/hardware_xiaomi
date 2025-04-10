@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor
 
+# Dolby Packages
+PRODUCT_PACKAGES += \
+    DolbyManager
+
 # Codec2 Props
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.c2.preferred=true \

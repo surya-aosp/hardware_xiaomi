@@ -36,5 +36,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false
 
+# Dolby Manager
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer \
+    XiaomiDolby
+
 # Include extra vendor audio stuff
 $(call inherit-product, vendor/sony/dolby/dolby-vendor.mk)
